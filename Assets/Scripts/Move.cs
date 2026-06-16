@@ -30,12 +30,11 @@ public class Move : MonoBehaviour
 	{
 		Debug.Log("ƒr[ƒ€‚É“–‚½‚Á‚½");
 		manager.GetComponent<BeamlauncherManager >().GetDamage();
-		
 	}
-	
 
-	// Update is called once per frame
-	void Update()
+
+		// Update is called once per frame
+		void Update()
 	{
 		// ˆÚ“®
 		if (Keyboard.current.dKey.IsPressed()) 
