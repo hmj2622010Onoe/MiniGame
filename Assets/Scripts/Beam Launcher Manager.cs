@@ -119,7 +119,7 @@ public class BeamlauncherManager : MonoBehaviour
 			shellScoreText.GetComponent<TextMeshProUGUI>().text = "SCORE".ToString();
 			scoreText.GetComponent<TextMeshProUGUI>().text = score.ToString();
 			levelText.GetComponent<TextMeshProUGUI>().text = "Level" + level.ToString();
-			if (combo > 1) { comboText.SetActive(true); comboText.GetComponent<TextMeshProUGUI>().text = combo + "Combo!!".ToString(); }
+			if (combo > 1) { comboText.SetActive(true); comboText.GetComponent<TextMeshProUGUI>().text = combo + "combo!!".ToString(); }
 			else comboText.SetActive(false);
 
 			//if (gameScene == "launcher")
