@@ -1766,6 +1766,7 @@ MonoBehaviour:
   countSE: {fileID: 8300000, guid: 997b36132c62e5e4ea3cf704707f9b8c, type: 3}
   beamSE: {fileID: 8300000, guid: aa65db2cb670ac540a4319e31dcd4b6f, type: 3}
   damageSE: {fileID: 8300000, guid: 0c1ac5f3f9877f640ba1dc2d167c5b65, type: 3}
+  startSE: {fileID: 8300000, guid: 315e4201a99c1a746a2fd890771aa4e1, type: 3}
   spanDefault: 4
   spanFirstChange: 3
   spanSecondChange: 2.5

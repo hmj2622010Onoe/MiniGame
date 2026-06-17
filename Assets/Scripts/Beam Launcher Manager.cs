@@ -32,6 +32,7 @@ public class BeamlauncherManager : MonoBehaviour
 	[SerializeField] AudioClip countSE;
 	[SerializeField] AudioClip beamSE;
 	[SerializeField] AudioClip damageSE;
+	[SerializeField] AudioClip startSE;
 	AudioSource aud;
 	int seCounter = 1;
 
@@ -103,6 +104,7 @@ public class BeamlauncherManager : MonoBehaviour
 			comboText.SetActive(false);
 			if (Keyboard.current.rKey.wasPressedThisFrame)
 			{
+				AudioSource.PlayClipAtPoint(startSE, transform.position);
 				startText.SetActive(false);
 
 				stageText.SetActive(true);
@@ -331,6 +333,8 @@ public class BeamlauncherManager : MonoBehaviour
 				if (seCounter == 4) { AudioSource.PlayClipAtPoint(beamSE, transform.position); seCounter++; }
 				if (Keyboard.current.rKey.wasPressedThisFrame)
 				{
+					AudioSource.PlayClipAtPoint(startSE, transform.position);
+
 					endScreen.SetActive(false);
 					resultsText.SetActive(false);
 					rClearText.SetActive(false);
