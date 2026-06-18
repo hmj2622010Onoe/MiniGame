@@ -355,6 +355,7 @@ public class BeamlauncherManager : MonoBehaviour
 					maxCombo = 0;
 					score = 0;
 					scoreChance = true;
+					seCounter = 1;
 
 					level = 1;
 
