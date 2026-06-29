@@ -127,11 +127,11 @@ public class BeamlauncherManager : MonoBehaviour
 			//if (gameScene == "launcher")
 			if (state == State.Launcher)
 			{
-
-				// launcher‚ÌÀ•W‚ğİ’è
-				beamX1 = UnityEngine.Random.Range(-1, 2);   // ˆêŒÂ–Ú‚ğİ’è
+				seCounter = 1;
+				// launcherï¿½Ìï¿½ï¿½Wï¿½ï¿½İ’ï¿½
+				beamX1 = UnityEngine.Random.Range(-1, 2);   // ï¿½ï¿½Â–Ú‚ï¿½İ’ï¿½
 				beamX2 = UnityEngine.Random.Range(-1, 2);
-				while (beamX1 == beamX2) beamX2 = UnityEngine.Random.Range(-1, 2);  // “ñŒÂ–Ú‚ªˆêŒÂ–Ú‚Æ”í‚Á‚Ä‚¢‚½ê‡”í‚ç‚È‚¢‚Ü‚Å•ÏX
+				while (beamX1 == beamX2) beamX2 = UnityEngine.Random.Range(-1, 2);  // ï¿½ï¿½Â–Ú‚ï¿½ï¿½ï¿½Â–Ú‚Æ”ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ü‚Å•ÏX
 
 				typeX1 = UnityEngine.Random.Range(0, 2);
 				typeX2 = UnityEngine.Random.Range(0, 2);
